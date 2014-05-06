@@ -32,4 +32,28 @@ Let's enter directions into the text file. "The princess is in the castle by the
 Now we need the wiseman to actually tell us those directions. `say -f wiseman.txt`
 The `-f` is a flag that passes an option to the say command. If you want the wiseman to have a different voice, you can enter a few options, Bruce, Vicki, Alex, Fred, Kathy, or Victoria. You do that by entering `say -f wiseman.txt -v Bruce` The order really matters here, it wouldn't read the file name if you put it after Bruce.
 
-We thank the wise man, and head out on our way. So first we have to leave the tavern and head back out into the territory. The `territory` directory is the parent directory of `tavern`. It is the directory that holds `tavern`. You can also call `tavern` a child of `territory`. In order to move into a parent directory, we type `cd ..` The `..` basically means take me back one level. Why don't we check our location with `pwd` just to be sure.
+We thank the wiseman, and head out on our way. So first we have to leave the tavern and head back out into the territory. The `territory` directory is the parent directory of `tavern`. It is the directory that holds `tavern`. You can also call `tavern` a child of `territory`. In order to move into a parent directory, we type `cd ..` The `..` basically means take me back one level. Why don't we check our location with `pwd` just to be sure.
+
+So now we know we need to go through the Spiney Forest, which first means in it, and then out of it. Let's create our Spiney Forest `mkdir spiney_forest` and then move into it `cd spiney_forest` But OH NO. We encounter a DRAGON! Let's create him and then see what he has to say. `touch dragon.txt` 
+
+Let's open the text file `open dragon.txt` and type, "I can breath fire, so beware. Put me in my cage if you dare." And then let him speak `say -f dragon.txt` 
+
+Let's create the dragon's cage `mkdir dragon_cage`. And now let's move the dragon into his cage. I bet he didn't think it would be this simple: `mv dragon.txt cage`. If we check the contents of spiney_forest `ls`, we'll only see the cage. If we `cd dragon_cage` and then `ls` we'll see the dragon is put in his place!
+
+Back in the spiney_forest, we start to get a little hungry. So we come across an apple. Let's make the apple, `touch apple.txt`. This apple isn't like other fairy-tales, this one is ok to eat. And actually, we can even use our own magic powers to duplicate it.  `cp` is the command to copy something. You can easy copy something to another directory, maybe if we wanted to give the dragon and apple `cp apple.txt cage`. OR let's say we wanted to duplicate apple and rename it apple2, so we know we have two of them. `cp apple.txt ./apple2.txt`. To rename something, you just change the name along with exactly where you want it to go. The `./` indicates the current directory.
+
+Because the dragon wanted to kill us, we should really take away his apple. We use `rm` to remove things. To remove the apple from the dragon's cage, we'd type `rm cage/apple.txt` We have to list the cage directory name so it knows where to go. `rm` won't delete entire directories automatically. There are special flags for that. Let's go ahead and use this newfound powers to get rid of the dragon for good!
+
+`rm -r cage` The `-r` is a flag that means recurisve. It will call remove on everything in `cage` until only the directory is left, and then remove that too. You'll want to be careful with using the `-r` flag, especially if you're in your root directory. Imagine deleting everything on your computer!!
+
+So now, all we need to do is get to the castle!! Let's create it first, `mkdir castle`. And then go in to it, `cd castle`. And now we need to get in the tower, `mkdir tower` and go in the tower to find the Princess `cd tower`. Now let's create our beautiful princess `touch princess.txt`. Open `princess.txt`. 
+
+And type "Oh you're my hero!!! I don't know how I'll ever repay you!!! I love you!!!"
+
+And let's give her a girl's voice `say -f princess.txt -v Victoria`
+
+Congratulations! You saved the Princess!!
+
+
+
+
