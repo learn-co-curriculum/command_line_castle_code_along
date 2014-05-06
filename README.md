@@ -1,3 +1,8 @@
+---
+  tags: command-line, bash kids
+  languages: bash
+---
+
 ##Terminal
 Terminal is what your computer looked like before your desktop was created. The desktop we all know is a GUI, which stands for "Graphical User Interface". The terminal screen can seem intimidating, so in order to make computers more user friendly, the desktop was created, and all of its icons.
 
