@@ -27,7 +27,7 @@ So now what? we're in this big land. Since this is our fairy tale, let's create 
 
 We have to enter the tavern in order to ask for directions to the castle. We don't want to be rude and just stand outside and shout, so let's `cd tavern`.
 
-Let's create a wise man who can answer our questions. We're going to create a file now, and enter his directions into the file. `Touch` is the command to create a file. We'll enter `touch wiseman.txt`.
+Let's create a wise man who can answer our questions. We're going to create a file now, and enter his directions into the file. `touch` is the command to create a file. We'll enter `touch wiseman.txt`.
 `ls` will prove the wiseman has been created.
 
 Now we need to open the text file we created, `open wiseman.txt`.
