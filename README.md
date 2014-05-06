@@ -15,7 +15,7 @@ Let's go ahead an open terminal. You're going to be in your root directory, whic
 
 We're going to need to enter the territory ruled by the castle, and because this is fairy-tale land, we're going to need to create that territory.
 
-To make the territory, we'll need to create a directory called `territory`. We do that by using the command `mkdir`. This command stands for "make directory". You need to follow the command by the name of the directory, so here we type `mkdir territory`
+To make the territory, we'll need to create a directory called `territory`. We do that by using the command `mkdir`. This command stands for "make directory". You need to follow the command with the name of the directory, so here we type `mkdir territory`
 
 Spaces separate values of commands, so the space is really important here. You can even use it to create more than one directory at once, `mkdir territory evil_swamp` makes two directories: `territory` and `evil_swamp`. If we used a space in `evil_swamp` instead of the underscore, it would have created three directories. 
 
