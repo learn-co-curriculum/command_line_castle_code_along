@@ -19,11 +19,11 @@ To make the territory, we'll need to create a directory called `territory`. We d
 
 Spaces separate values of commands, so the space is really important here. You can even use it to create more than one directory at once, `mkdir territory evil_swamp` makes two directories: `territory` and `evil_swamp`. If we used a space in `evil_swamp` instead of the underscore, it would have created three directories. 
 
-So let's make sure the territory directory exists. `ls` is the command that lists the contents of a directory. Note that we created territory in our root directory, so you will see a lot of other files and directories listed along with `territory`. Think of `ls` as binoculars for you to use to check out his surroundings.
+So let's make sure the territory directory exists. `ls` is the command that lists the contents of a directory. Note that we created territory in our root directory, so you will see a lot of other files and directories listed along with `territory`. Think of `ls` as binoculars for you to use to check out your surroundings.
 
 Now you need to travel forth into the territory. To travel about our directories, we use `cd`. So to go into the territory, we enter `cd territory`. 
 
-So now what? we're in this big land. Since this is our fairy tale, let's create a tavern where we can ask for help. Yepp, this means we'll have to make another directory. `mkdir tavern`.
+So now what? We're in this big land. Since this is our fairy tale, let's create a tavern where we can ask for help. Yepp, this means we'll have to make another directory. `mkdir tavern`.
 
 We have to enter the tavern in order to ask for directions to the castle. We don't want to be rude and just stand outside and shout, so let's `cd tavern`.
 
@@ -43,7 +43,7 @@ So now we know we need to go through the Spiney Forest, which first means in it,
 
 Let's open the text file `open dragon.txt` and type, "I can breath fire, so beware. Put me in my cage if you dare." And then let him speak `say -f dragon.txt` 
 
-Let's create the dragon's cage `mkdir dragon_cage`. And now let's move the dragon into his cage. I bet he didn't think it would be this simple: `mv dragon.txt cage`. If we check the contents of spiney_forest `ls`, we'll only see the cage. If we `cd dragon_cage` and then `ls` we'll see the dragon is put in his place!
+Let's create the dragon's cage `mkdir dragon_cage`. And now let's move the dragon into his cage. I bet he didn't think it would be this simple: `mv dragon.txt dragon_cage`. If we check the contents of spiney_forest `ls`, we'll only see the cage. If we `cd dragon_cage` and then `ls` we'll see the dragon is put in his place!
 
 Back in the spiney_forest, we start to get a little hungry. So we come across an apple. Let's make the apple, `touch apple.txt`. This apple isn't like other fairy-tales, this one is ok to eat. And actually, we can even use our own magic powers to duplicate it.  `cp` is the command to copy something. You can easy copy something to another directory, maybe if we wanted to give the dragon and apple `cp apple.txt cage`. OR let's say we wanted to duplicate apple and rename it apple2, so we know we have two of them. `cp apple.txt ./apple2.txt`. To rename something, you just change the name along with exactly where you want it to go. The `./` indicates the current directory.
 
