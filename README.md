@@ -7,7 +7,7 @@
 Terminal is what your computer looked like before your desktop was created. The desktop we all know is a GUI, which stands for "Graphical User Interface". The terminal screen can seem intimidating, so in order to make computers more user friendly, the desktop was created, and all of its icons.
 
 
-Let's go ahead an open terminal. You're going to be in your root directory, which basically is the very base of your entire computer. To make sure we're actually there, let's go ahead and check. We're going to type `pwd`. `pwd` stands for "Print Working Directory" A directory is the exact same thing as a folder. If you enter `pwd` you should see something like `/Users/victoriafriedman` but with your name.
+Let's go ahead and open terminal. You're going to be in your root directory, which basically is the very base of your entire computer. To make sure we're actually there, let's go ahead and check. We're going to type `pwd`. `pwd` stands for "Print Working Directory" A directory is the exact same thing as a folder. If you enter `pwd` you should see something like `/Users/victoriafriedman` but with your name.
 
 
 ##Let's use command line to save the Princess from the castle tower where she is being held prisoner! 
@@ -49,7 +49,7 @@ Back in the spiney_forest, we start to get a little hungry. So we come across an
 
 Because the dragon wanted to kill us, we should really take away his apple. We use `rm` to remove things. To remove the apple from the dragon's cage, we'd type `rm cage/apple.txt` We have to list the cage directory name so it knows where to go. `rm` won't delete entire directories automatically. There are special flags for that. Let's go ahead and use this newfound powers to get rid of the dragon for good!
 
-`rm -r cage` The `-r` is a flag that means recurisve. It will call remove on everything in `cage` until only the directory is left, and then remove that too. You'll want to be careful with using the `-r` flag, especially if you're in your root directory. Imagine deleting everything on your computer!!
+`rm -r cage` The `-r` is a flag that means recursive. It will call remove on everything in `cage` until only the directory is left, and then remove that too. You'll want to be careful with using the `-r` flag, especially if you're in your root directory. Imagine deleting everything on your computer!!
 
 So now, all we need to do is get to the castle!! Let's create it first, `mkdir castle`. And then go in to it, `cd castle`. And now we need to get in the tower, `mkdir tower` and go in the tower to find the Princess `cd tower`. Now let's create our beautiful princess `touch princess.txt`. Open `princess.txt`. 
 
