@@ -1,6 +1,8 @@
 ---
-  tags: command-line, bash, kids
+  tags: command-line, cli, bash, kids
   languages: bash
+  level: 1
+  type: catch-up
 ---
 
 ##Terminal
