@@ -4,8 +4,7 @@
   level: 1
   type: catch-up
 ---
-<img src="http://images.rapgenius.com/c3289a78cba7c49e8b0111629e9d727c.528x704x1.jpg
-"height="200" align="right" hspace="20">
+<img src="http://images.rapgenius.com/c3289a78cba7c49e8b0111629e9d727c.528x704x1.jpg" height="200" align="right" hspace="20">
 
 ##Let's use the command line to save the princess from the castle tower where she is being held prisoner! 
 
