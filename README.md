@@ -53,9 +53,9 @@ Because the dragon wanted to kill you, you should take away his apple to punish 
 ###Remove a directory with rm -r
 `rm -r cage` The `-r` is a flag that means recursive. A recursive action is one that gets repeated. In this case, the command will call remove on everything inside `cage` until only the directory is left, and then it'll remove that, too. You'll want to be careful with using the `-r` flag, especially if you're in your root directory. Imagine deleting everything on your computer!
 
-So now, all you need to do is get to the castle! Create it first with `mkdir castle`. Then go into it with `cd castle`. Now you need to create the tower with `mkdir tower` and go into it to find the Princess with `cd tower`. Now create the beautiful princess with `touch princess.txt`. Open `princess.txt`. 
+<img src="http://th08.deviantart.net/fs48/PRE/f/2009/216/f/6/Saved_Princess___DO_NOT_FAVE_by_peach_club.png" width="300" align="left" hspace="20">So now, all you need to do is get to the castle! Create it first with `mkdir castle`. Then go into it with `cd castle`. Now you need to create the tower with `mkdir tower` and go into it to find the Princess with `cd tower`. Now create the beautiful princess with `touch princess.txt`. Open `princess.txt`. 
 
-<img src="http://th08.deviantart.net/fs48/PRE/f/2009/216/f/6/Saved_Princess___DO_NOT_FAVE_by_peach_club.png" width="300" align="left" hspace="20">The princess is so grateful for you saving her! Enter "Oh you're my hero!!! I don't know how I'll ever repay you!!! I love you!!!" into the text file and save. Give her a girl's voice and listen as she thanks you for rescuing her with `say -f princess.txt -v Victoria`. You saved the day!
+The princess is so grateful for you saving her! Enter "Oh you're my hero!!! I don't know how I'll ever repay you!!! I love you!!!" into the text file and save. Give her a girl's voice and listen as she thanks you for rescuing her with `say -f princess.txt -v Victoria`. You saved the day!
 
 
 
