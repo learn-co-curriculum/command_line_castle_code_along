@@ -4,12 +4,10 @@
   level: 1
   type: catch-up
 ---
-<img src="http://images.rapgenius.com/c3289a78cba7c49e8b0111629e9d727c.528x704x1.jpg" height="200" align="right" hspace="20">
-
 ##Let's use the command line to save the princess from the castle tower where she is being held prisoner! 
 
 ###The saga begins
-A beautiful princess has been taken prisoner in the castle tower, and it's your mission to save her. Are you up for the task?
+<img src="http://images.rapgenius.com/c3289a78cba7c49e8b0111629e9d727c.528x704x1.jpg" height="200" align="right" hspace="20"> A beautiful princess has been taken prisoner in the castle tower, and it's your mission to save her. Are you up for the task?
 
 ###Get oriented with pwd
 To start, open terminal. You'll begin in your home directory, which is the topmost `directory` for the computer's current user. A directory is another name for a folder. To make sure you're actually there, type `pwd`. `pwd` stands for "Present Working Directory" or, more simply, "Tell me where I am!" You should see something like `/Users/victoriafriedman` but with your user name.
