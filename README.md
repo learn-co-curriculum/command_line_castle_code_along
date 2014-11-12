@@ -23,7 +23,7 @@ Spaces separate values of commands, so the space is really important here. You c
 Now check to make sure the territory directory exists. `ls` is the command that lists the contents of a directory. Note that we created territory in our root directory, so you will see a lot of other files and directories listed along with `territory`. Think of `ls` as binoculars for you to use to check out your surroundings.
 
 ###Get moving with cd
-Now you need to travel forth into the territory. To travel about our directories, use `cd`. So to go into the territory, enter `cd territory`.
+<img src="http://upload.wikimedia.org/wikipedia/commons/5/56/Tavern_Scene-1658-David_Teniers_II.jpg" width="200" align="left" hspace="20"> Now you need to travel forth into the territory. To travel about our directories, use `cd`. So to go into the territory, enter `cd territory`.
 
 So now what? Since this is our fairy tale, create a tavern where we can ask for help. Yep, this means you'll have to make another directory with `mkdir tavern`.
 
@@ -45,6 +45,7 @@ You thank the wiseman and head out on your way. First you have to leave the tave
 
 So now you know you need to go through the Spiney Forest, which first means in it, and then out of it. Create your Spiney Forest with `mkdir spiney_forest` and then move into it `cd spiney_forest`. But OH NO! You encounter a DRAGON! Create him and then see what he has to say with `touch dragon.txt` 
 
+<img src="http://th01.deviantart.net/fs70/200H/i/2014/129/8/b/hungry_dragon_by_mourri-d7hp8fg.jpg" width="200" align="right" hspace="20">
 Open the text file with `open dragon.txt` and type, "I can breath fire, so beware. Put me in my cage if you dare." And then let him speak `say -f dragon.txt` 
 
 ###Moving around with mv
