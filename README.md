@@ -20,8 +20,8 @@ Spaces separate values of commands, so the space is really important here. You c
 ###Check your contents with ls
 Now check to make sure the territory directory exists. `ls` is the command that lists the contents of a directory. Note that we created territory in our root directory, so you will see a lot of other files and directories listed along with `territory`. Think of `ls` as binoculars for you to use to check out your surroundings.
 
-###Get moving with cd
-<img src="http://upload.wikimedia.org/wikipedia/commons/5/56/Tavern_Scene-1658-David_Teniers_II.jpg" width="300" align="left" hspace="20"> Now you need to travel forth into the territory. To travel about our directories, use `cd`. So to go into the territory, enter `cd territory`.
+<img src="http://upload.wikimedia.org/wikipedia/commons/5/56/Tavern_Scene-1658-David_Teniers_II.jpg" width="300" align="left" hspace="20"> ###Get moving with cd
+Now you need to travel forth into the territory. To travel about our directories, use `cd`. So to go into the territory, enter `cd territory`.
 
 So now what? Since this is our fairy tale, create a tavern where we can ask for help. Yep, this means you'll have to make another directory with `mkdir tavern`. You have to enter the tavern in order to ask for directions to the castle. You don't want to be rude and just stand outside shouting, so `cd tavern`.
 
