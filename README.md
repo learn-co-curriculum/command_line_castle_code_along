@@ -20,9 +20,8 @@ Spaces separate values of commands, so the space is really important here. You c
 ###Check your contents with ls
 Now check to make sure the territory directory exists. `ls` is the command that lists the contents of a directory. Note that we created territory in our root directory, so you will see a lot of other files and directories listed along with `territory`. Think of `ls` as binoculars for you to use to check out your surroundings.
 
-<img src="http://upload.wikimedia.org/wikipedia/commons/5/56/Tavern_Scene-1658-David_Teniers_II.jpg" width="300" align="left" hspace="20"> 
-###Get moving with cd
-Now you need to travel forth into the territory. To travel about our directories, use `cd`. So to go into the territory, enter `cd territory`.
+###Change into a directory with cd
+<img src="http://upload.wikimedia.org/wikipedia/commons/5/56/Tavern_Scene-1658-David_Teniers_II.jpg" width="300" align="right" hspace="20">Now you need to travel forth into the territory. To travel about our directories, use `cd`. So to go into the territory, enter `cd territory`.
 
 So now what? Since this is our fairy tale, create a tavern where we can ask for help. Yep, this means you'll have to make another directory with `mkdir tavern`. You have to enter the tavern in order to ask for directions to the castle. You don't want to be rude and just stand outside shouting, so `cd tavern`.
 
@@ -35,7 +34,7 @@ Now you need to open the text file you created, `open wiseman.txt`. Enter these 
 ###Say it loud with say
 Now you need the wiseman to actually tell you those directions. `say -f wiseman.txt`. The `-f` is a flag that passes an option to the say command. If you want the wiseman to have a different voice, you can enter a few options: Bruce, Vicki, Alex, Fred, Kathy, or Victoria. You do that by entering `say -f wiseman.txt -v Bruce` The order matters here! It wouldn't read the file name if you put it after Bruce.
 
-###Move out of a directory with cd ..
+###Get out of a directory with cd ..
 You thank the wiseman and head out on your way. First you have to leave the tavern and head back out into the territory. The `territory` directory is the parent directory of `tavern`. It holds `tavern` inside it like a baby. In other words, `tavern` is a child of `territory`. In order to move into a parent directory, type `cd ..` The `..` basically means, "Take me back one level."" Check your location with `pwd` just to be sure.
 
 So now you know you need to go through the Spiney Forest, which first means in it, and then out of it. Create your Spiney Forest with `mkdir spiney_forest` and then move into it `cd spiney_forest`. But OH NO! You encounter a DRAGON! Create him and then see what he has to say with `touch dragon.txt` 
