@@ -7,10 +7,10 @@
 ##Use the command line to save the princess!
 
 ###The saga begins
-<img src="http://images.rapgenius.com/c3289a78cba7c49e8b0111629e9d727c.528x704x1.jpg" height="300" align="right" hspace="20"> A beautiful princess has been taken prisoner in the castle tower, and it's your mission to save her. Are you up for the task?
+A beautiful princess has been taken prisoner in the castle tower, and it's your mission to save her. Are you up for the task?
 
 ###Get oriented with pwd
-To start, open terminal. You'll begin in your home directory, which is the topmost `directory` for the computer's current user. A directory is another name for a folder. To make sure you're actually there, type `pwd`. `pwd` stands for "Present Working Directory" or, more simply, "Tell me where I am!" You should see something like `/Users/victoriafriedman` but with your user name. Now you need to enter the territory ruled by the castle, and because this is fairy tale land, we're going to need to create that territory.
+<img src="http://images.rapgenius.com/c3289a78cba7c49e8b0111629e9d727c.528x704x1.jpg" height="300" align="right" hspace="20"> To start, open terminal. You'll begin in your home directory, which is the topmost `directory` for the computer's current user. A directory is another name for a folder. To make sure you're actually there, type `pwd`. `pwd` stands for "Present Working Directory" or, more simply, "Tell me where I am!" You should see something like `/Users/victoriafriedman` but with your user name. Now you need to enter the territory ruled by the castle, and because this is fairy tale land, we're going to need to create that territory.
 
 ###Make directories with mkdir
 Create a directory called `territory`. To do this, you'll use the command `mkdir`. This command is self-explanatory. It means "make directory". You need to follow the command with the name of the directory, so here we type `mkdir territory`.
