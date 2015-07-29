@@ -1,9 +1,4 @@
----
-  tags: command-line, cli, bash, kids
-  languages: bash
-  level: 1
-  type: catch-up
----
+
 ##Use the command line to save the princess!
 
 ###The saga begins
