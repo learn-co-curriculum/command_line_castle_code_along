@@ -26,13 +26,10 @@ Create a wise man who can answer our questions. We're going to create a file now
 ###Open a file with open
 Now you need to open the text file you created, `open wiseman.txt`. Enter these directions into the text file: "The princess is in the castle by the lake, just through the spiny forest" Don't forget to save your changes!
 
-###Say it loud with say
-Now you need the wiseman to actually tell you those directions. `say -f wiseman.txt`. The `-f` is a flag that passes an option to the say command. If you want the wiseman to have a different voice, you can enter a few options: Bruce, Vicki, Alex, Fred, Kathy, or Victoria. You do that by entering `say -f wiseman.txt -v Bruce` The order matters here! It wouldn't read the file name if you put it after Bruce.
-
 ###Get out of a directory with cd ..
 You thank the wiseman and head out on your way. First you have to leave the tavern and head back out into the territory. The `territory` directory is the parent directory of `tavern`. It holds `tavern` inside it like a baby. In other words, `tavern` is a child of `territory`. In order to move into a parent directory, type `cd ..` The `..` basically means, "Take me back one level."" Check your location with `pwd` just to be sure.
 
-So now you know you need to go through the Spiney Forest, which first means in it, and then out of it. Create your Spiney Forest with `mkdir spiney_forest` and then move into it `cd spiney_forest`. But OH NO! You encounter a DRAGON! Create him and then see what he has to say with `touch dragon.txt`. Open the text file with `open dragon.txt` and type, "I can breath fire, so beware. Put me in my cage if you dare." And then let him speak `say -f dragon.txt` 
+So now you know you need to go through the Spiney Forest, which first means in it, and then out of it. Create your Spiney Forest with `mkdir spiney_forest` and then move into it `cd spiney_forest`. But OH NO! You encounter a DRAGON! Create him and then see what he has to say with `touch dragon.txt`. Open the text file with `open dragon.txt` and type, "I can breath fire, so beware. Put me in my cage if you dare."
 
 ###Moving around with mv
 <img src="http://th01.deviantart.net/fs70/200H/i/2014/129/8/b/hungry_dragon_by_mourri-d7hp8fg.jpg" width="300" align="right" hspace="20"> Create the dragon's cage `mkdir dragon_cage`. And now move the dragon into his cage. I bet he didn't think it would be this simple: `mv dragon.txt dragon_cage`. The first argument `dragon.txt`, is the file you're moving and the second argument, `dragon_cage`, is the location you want to move it to. Check the contents of spiney_forest with `ls`. You should only see the cage. If you `cd dragon_cage` and then `ls` you'll see the dragon is put in his place!
@@ -48,7 +45,7 @@ Because the dragon wanted to kill you, you should take away his apple to punish 
 
 <img src="http://th08.deviantart.net/fs48/PRE/f/2009/216/f/6/Saved_Princess___DO_NOT_FAVE_by_peach_club.png" width="250" align="left" hspace="20">So now, all you need to do is get to the castle! Create it first with `mkdir castle`. Then go into it with `cd castle`. Now you need to create the tower with `mkdir tower` and go into it to find the Princess with `cd tower`. Now create the beautiful princess with `touch princess.txt`. Open `princess.txt`. 
 
-The princess is so grateful for you saving her! Enter "Oh you're my hero!!! I don't know how I'll ever repay you!!! I love you!!!" into the text file and save. Give her a girl's voice and listen as she thanks you for rescuing her with `say -f princess.txt -v Victoria`. You saved the day!
+The princess is so grateful for you saving her! Enter "Oh you're my hero!!! I don't know how I'll ever repay you!!! I love you!!!" into the text file and save. Give her a girl's voice and listen as she thanks you for rescuing her with. You saved the day!
 
 
 
