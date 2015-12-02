@@ -50,3 +50,5 @@ The princess is so grateful for you saving her! Enter "Oh you're my hero!!! I do
 
 
 
+
+<a href='https://learn.co/lessons/command_line_castle_code_along' data-visibility='hidden'>View this lesson on Learn.co</a>
