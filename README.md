@@ -51,4 +51,4 @@ The princess is so grateful for you saving her! Enter "Oh you're my hero!!! I do
 
 
 
-<a href='https://learn.co/lessons/command_line_castle_code_along' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/command_line_castle_code_along' title='Use the command line to save the princess!'>Use the command line to save the princess!</a> on Learn.co and start learning to code for free.</p>
